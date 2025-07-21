@@ -33,10 +33,10 @@ export class User {
   })
   role: UserRole;
 
-  @Column({ name: "can_edit_products", type: "boolean", default: false })
+  @Column({ name: "caneditproducts", type: "boolean", default: false })
   canEditProducts: boolean;
 
-  @Column({ name: "can_manage_logistics", type: "boolean", default: false })
+  @Column({ name: "canmanagelogistics", type: "boolean", default: false })
   canManageLogistics: boolean;
 
   @Column({
